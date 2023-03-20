@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+span{
+    color: rgb(157, 95, 174)
+
+	}
+h1{
+	color: white;
+	margin: 10px 0px 10px;
+	font-size: 25px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+h4{
+	color: rgba(76, 160, 224, 0.8);
+	letter-spacing: 1px;
+	font-size: 35px;
+}
+h5{
+	color: #fcfc;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.tab li{
+    color: #fcfc;
+	letter-spacing: 1px;
+    position: relative;
+    top:-100px;
+    
+}
+.about-text a,p,h4,h6{
+    color: #fcfc;
+}
+.hori{
+    position: absolute;
+    top:90px;
+    
+}
+.tab12{
+   position:absolute;
+   top:-20px;
+
+}
+.card-text{
+	color: #fcfc;
+}
+.me{
+	position: relative;
+	margin-top: -45px;
+}
+.follow{
+	position: relative;
+	margin-top: -75px;
+}
+.follow1{
+	position: relative;
+	margin-top: -45px;
+}
+.box12{
+    position: relative;
+	margin-top:-75px;
+
+	
+}
+input,textarea{
+	color: aqua;
+}
+.progress-bar{
+	color: #fcfc;
+}
+
+.footericon i{
+	color:white;
+}

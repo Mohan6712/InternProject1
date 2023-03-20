@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <title>Mohan Shrestha</title>
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<script>  
+  function validation()  
+  {  
+      var name=document.f1.name.value;  
+      var em=document.f1.email.value; 
+      var ad=document.f1.address.value;
+      var su=document.f1.subject.value;  
+      var ms=document.f1.message.value;   
+      var submit=document.f1.submi.value;   
+      if(name.length=="" && em.length=="") {  
+          alert("Name and Email are required!");  
+         return false;  
+      }  
+   else   if(ad.length=="" && su.length=="") {  
+          alert("Address and Subject fields are empty!");  
+          return false;  
+      }  
+      else   if(ms.length=="") {  
+          alert("Mesaage field is empty!");  
+          return false;  
+      }  
+     else
+      {  
+          if(name.length=="") {  
+              alert("Required UserName. ");  
+              return false;  
+          }   
+       else   if (em.length=="") {  
+          alert("Email field is empty.");  
+          return false;  
+          }  
+       else   if (ad.length=="") {  
+          alert(" field is empty.");  
+          return false;  
+          }  
+       else   if (su.length=="") {  
+          alert("Subject field is empty.");  
+          return false;  
+          }  
+
+       else if (ms.length=="") {  
+          alert("Message field is empty.");  
+          return false;  
+          }  
+          else if (submit=="") {  
+          alert("Your message is sent.Thank you!");  
+          return false;  
+          window.location.href="home.html"
+          } 
+  
+
+      }  
+                        
+    } 
+   </script>  
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MyPortfo<span>lio</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="home">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="img-fluid" src="img/hola.jpg" class="d-block w-100">
+        <div class="carousel-caption text-start">
+          <h5>Hi,I'm Mohan.</h5>
+          <h2>Skilled and Talented</h2>
+          <h2> WEB <span>DEVELOPER.</span></h2>
+          <p><a class="btn btn-lg btn-secondary btn-sm " href="#contact">Contact</a></p>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid" src="img/ct.jpg" class="d-block w-100">
+        <div class="carousel-caption text-start ">
+          <h5>Hi,I'm Mohan.</h5>
+          <h2>Skilled and Talented</h2>
+          <h2> WEB <span>DEVELOPER.</span></h2>
+          <p><a class="btn btn-lg btn-secondary btn-sm " href="#contact">Contact </a></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+<div class="row featurette d-flex justify-content-center align-items-center my-4">
+    <div class="col-md-7">
+    <div class="about-text"><div class="px-3"><h2 class="featurette-heading">Hello,I'm Mohan Shrestha.</h2></div>
+      <p class="fw-normal fs-6 p-4">I'm a creative Web Developer providing web solution for organizations.Skilled in designing,developing multiple web-based applications. Developed website from front to backend using Bootstrap,JavaScript, CSS, PHP and HTML.</br>
+        If I have to describe myself in few words then it goes like Passionate , Honest, Hardworking, Innovative, Problem-solving abilities , Reliable , Responsible , Ambitious and a person who loves code and grow her skills & knowledge in the field of technology.
+      </p>
+    </div></div>
+    <div class="col-md-5">
+      <img class="img-fluid" src="img/mohan.jpg" class="d-block w-100" width="500" height="500">
+
+    </div>
+  </div>
+  </div>
+
+ <!--section about-->
+ <div id="about">
+  <hr class="featurette-divider">
+<section class = "about">
+<div class="row featurette d-flex justify-content-center align-items-center my-2">
+<div class="col-md-7">
+    <h2 class="featurette-heading p-4 text-center">About Me</h2>
+   <div class="me"><div class="about-text"><p class="fw-normal fs-6 p-4"> A 4<sup>th</sup> year Bachelor in Information management (BIM) undergraduate at
+      Shanker Dev Campus with an interest in Web Development.A passion for developing scalable web applications and
+      working across the full stack. I am looking to join high IT forces to continue to grow her skill set while
+      contributing to the positive outcomes.</br></br>
+      Here are a few technologies I've been working with recently:</p>
+    <div class="tab p-4"> <table>
+        <tr>
+          <ul>
+            <td colspan="15">
+            <li>JavaScript</li>
+            </td>
+            <td >
+              <li>GIT</li>
+            </td>
+          </ul>
+        </tr>
+        <tr>
+          <ul>
+            <td colspan="15">
+              <li>CSS</li>
+            </td>
+            <td colspan="5">
+              <li>MySQL</li>
+            </td>
+          </ul>
+        </tr>
+
+        <tr>
+          <ul>
+            <td colspan="15">
+              <li>HTML</li>
+            </td>
+            <td colspan="5">
+              <li>Bootstrap</li>
+            </td>
+          </ul>
+        </tr>
+
+        <tr>
+          <ul>
+            <td colspan="15">
+              <li>PHP </li>
+            </td>
+            <td colspan="5">
+              <li>JAVA</li>
+            </td>
+
+          </ul>
+        </tr>
+        <tr>
+          <ul>
+        <tr>
+          <ul>
+            <td colspan="15">
+              <li>SASS</li>
+            </td>
+            <td colspan="15">
+              <li>React.js</li>
+              </td>
+          </ul>
+         </tr></ul>
+        </tr>
+      </table>
+    </div>
+  </div>
+ </div>
+ </div>
+ <hr class=" follow1 featurette-divider">
+  <div class="col-md-7">
+   <div class="tab"><div class="about-text"> <p class="fw-normal fs-6 p-4"> Full Name: Mohan Shrestha <br>
+      Birthday: 08 June 2000<br>
+      Age: 22 <br>
+      Email: mohanshrestha6712@gmail.com <br>
+      Address: Jorpati,Kathmandu,Nepal <br>
+      </div>
+         <div class=" follow p-4"><h5>Follow me</h5></div>
+         <div class=" follow1 about-text p-4">  <p>
+      <a href="https://github.com/Mohan6712" class="p-2"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.instagram.com/" class="p-2"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/mohan-shrestha67/" class="p-2"><i
+          class="fa-brands fa-linkedin"></i></a>
+      <a href="https://twitter.com/" class="p-2"><i class="fa-brands fa-twitter"></i></a>
+    </p></div>
+   <div class=" box12 p-4">
+    <div class="col-md-12">
+      <div class="h-100 p-5 text-white bg-dark rounded-3">
+        <h5 class="card-title mb-4"><i class="fa-solid fa-graduation-cap"></i> School Leaving Certificate</h5>
+         <p class="card-text"><i class="fa-solid fa-calendar-days"> 2004 / 2016</i></p>
+        <p class="card-text"><i class="fa-solid fa-building-columns"></i> Geetanjali Higher Secondary School</p>
+       <p class="card-text"><i class="fa-solid fa-location-dot"></i> Balaju,ktm,Nepal </p>
+    </div>
+    </div></br>
+    <div class="col-md-12">
+      <div class="h-100 p-5 text-white bg-dark rounded-3">
+        <h5 class="card-title mb-4"><i class="fa-solid fa-graduation-cap"></i> Intermediate +2</h5>
+        <p class="card-text"><i class="fa-solid fa-calendar-days"> 2016 / 2018</i></p>
+        <p class="card-text"><i class="fa-solid fa-building-columns"></i> East-Pole Academy</p>   
+        <p><i class="fa-solid fa-location-dot"></i> Jorpati,KTM,Nepal </p>
+     </div>
+  </div></br>
+ <div class="col-md-12">
+      <div class="h-100 p-5 text-white bg-dark rounded-3">
+        <h5 class="card-title mb-4"><i class="fa-solid fa-graduation-cap"></i> Bachelor of Information Management(BIM)</h5>
+        <p class="card-text"><i class="fa-solid fa-calendar-days"> 2018 / 2023</i></p>
+        <p class="card-text"><i class="fa-solid fa-building-columns"></i> ShankerDev Campus</p>  
+        <p><i class="fa-solid fa-location-dot"></i> Putalisadhak,ktm,Nepal </p>
+      </div>
+    </div>
+  </div>
+</section>  
+</div>
+<!--section skills-->
+<div id="skills">
+<hr class="featurette-divider">
+<section class="skills">
+<h2 class="featurette-heading text-center">Skills</h2>
+<div class="container my-4">
+<div class="row mt-3">
+      <div class="col-md-6">
+        <h2 class="h6">HTML</h2>
+        <div class="progress mb-4">
+        <div class="progress-bar" role="progressbar" style="width: 82%; background-color: rgba(86, 1, 86, 0.923); " aria-valuenow="85%" aria-valuemin="0" aria-valuemax="100">85%</div>
+        </div>
+        <h2 class="h6">CSS</h2>
+        <div class="progress mb-4">
+        <div class="progress-bar" role="progressbar" style="width: 82%; background-color: rgba(86, 1, 86, 0.923); " aria-valuenow="75%" aria-valuemin="0" aria-valuemax="100" >75%</div>
+        </div>
+         <h2 class="h6">JavaScript</h2>
+        <div class="progress mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 85%; background-color: rgba(86, 1, 86, 0.923); " aria-valuenow="70%" aria-valuemin="0" aria-valuemax="100">70%</div>
+        </div>
+        <h2 class="h6">SASS</h2>
+        <div class="progress mb-4">
+        <div class="progress-bar" role="progressbar" style="width: 80%; background-color: rgba(86, 1, 86, 0.923); " aria-valuenow="70%" aria-valuemin="0" aria-valuemax="100">70%</div>
+        </div>
+        <h2 class="h6">PHP</h2>
+        <div class="progress mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 75%; background-color: rgba(86, 1, 86, 0.923); " aria-valuenow="75%" aria-valuemin="0" aria-valuemax="100">75%</div>
+        </div>
+       <h2 class="h6">GIT</h2>
+        <div class="progress mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 90%; background-color: rgba(86, 1, 86, 0.923); " aria-valuenow="88%" aria-valuemin="0" aria-valuemax="100">88%</div>
+        </div>
+      </div>
+       <div class="col-md-6">
+        <h2 class="h6">JAVA</h2>
+        <div class="progress mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 87%; background-color: rgba(86, 1, 86, 0.923); " aria-valuenow="87%" aria-valuemin="0" aria-valuemax="100">87%</div>
+        </div>
+       <h2 class="h6">Bootstrap</h2>
+        <div class="progress mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 58%; background-color: rgba(86, 1, 86, 0.923); ;" aria-valuenow="58%" aria-valuemin="0" aria-valuemax="100">58%</div>
+        </div>
+        <h2 class="h6">MySQL</h2>
+        <div class="progress mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 94%; background-color: rgba(86, 1, 86, 0.923); " aria-valuenow="94%" aria-valuemin="0" aria-valuemax="100">94%</div>
+        </div>
+        <h2 class="h6">Communication</h2>
+        <div class="progress mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 92%; background-color: rgba(86, 1, 86, 0.923); " aria-valuenow="95%" aria-valuemin="0" aria-valuemax="100">95%</div>
+        </div>
+        <h2 class="h6">TeamWork</h2>
+        <div class="progress mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 90%; background-color: rgba(86, 1, 86, 0.923); " aria-valuenow="95%" aria-valuemin="0" aria-valuemax="100">95%</div>
+        </div>
+        <h2 class="h6">Leadership</h2>
+        <div class="progress mb-4">
+          <div class="progress-bar" role="progressbar" style="width: 96%; background-color: rgba(86, 1, 86, 0.923); " aria-valuenow="96%" aria-valuemin="0" aria-valuemax="100">96%</div>
+        </div>
+        </div>
+    </div>
+  </div>
+</section>
+</div>
+<!--section contact-->
+<div id="contact">
+<hr class="featurette-divider">
+<section class="contact">
+<div class="p-4 align-items-center"> 
+  <h2 class="text-white text-center">Contact</h2></div>
+            <form action="https://formsubmit.co/aelibastakoti68@gmail.com" method="POST" name="f1"    onsubmit="validation()">
+    <div class="mb-3 p-4">
+          <label for="exampleInputEmail1" class="form-label">Full Name</label>
+          <input type="text" color="" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name" style="background-color: rgba(231, 226, 226, 0.923);">
+
+          <label for="exampleInputEmail1" class="form-label">Email Address</label>
+          <input type="email" name="email"   class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" style="background-color: rgba(231, 226, 226, 0.923);">
+
+
+          <label for="exampleInputEmail1" class="form-label">Address</label>
+          <input type="text" name="address"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Address" style="background-color: rgba(231, 226, 226, 0.923);">
+        
+      <label for="exampleInputEmail1" class="form-label">Subject</label>
+      <input type="text" name="subject" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Subject" style="background-color: rgba(231, 226, 226, 0.923);">
+       
+      <label for="Textarea" class="form-label">Message</label>
+       <textarea type="text" rows="5" cols="5" class="form-control" id="exampleInputEmail1" name="message"   aria-describedby="emailHelp" placeholder="Your Message" style="background-color: rgba(231, 226, 226, 0.923);"></textarea>
+       
+
+      <div class="my-3">
+      <button type="submit"  class="btn btn-lg btn-secondary btn-sm" name="submi">Send Message</button>
+      </div>
+    </form>
+</section>
+</div>
+<div class="container-fluid navbar-dark bg-dark footer">
+    <footer class="py-2 my-2">
+      <ul class="nav justify-content-center border-bottom pb-2 mb-2">
+        <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link px-2 text-muted">Skills</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact</a></li>
+     </ul>
+     <div class="footericon text-center">
+     <a href="https://github.com/Mohan6712" class="p-2"><i class="fa-brands fa-github"></i></a>
+     <a href="https://www.instagram.com/" class="p-2"><i class="fa-brands fa-instagram"></i></a>
+     <a href="https://www.linkedin.com/in/mohan-shrestha67/" class="p-2"><i
+         class="fa-brands fa-linkedin"></i></a>
+     <a href="https://twitter.com/" class="p-2"><i class="fa-brands fa-twitter"></i></a>
+     </div>
+    </footer>
+  </div>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
